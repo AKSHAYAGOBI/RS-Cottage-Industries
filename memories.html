@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Memories – RS Cottage Industries</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fdfcf9;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #25D366;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+
+    .memory-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .memory-card {
+  width: 280px;
+  height: auto; /* Let it grow naturally */
+}
+.memory-card img {
+  width: 100%;
+  height: 220px; /* Increased height for better display */
+  object-fit: cover; /* Ensures the image fills the box nicely */
+  display: block;
+  border-bottom: 1px solid #ddd;
+}
+
+
+    .memory-content {
+      padding: 12px;
+      text-align: justify;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .memory-content h4 {
+      margin-top: 0;
+      margin-bottom: 6px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .memory-content p {
+      margin: 0;
+      font-size: 14px;
+      color: #444;
+    }
+
+    .back-btn {
+      display: block;
+      margin: 20px auto;
+      text-align: center;
+      padding: 10px 20px;
+      background-color: #25D366;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      width: fit-content;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>📸 Memories of RS Cottage Industries</h1>
+  </header>
+
+  <div class="memory-container">
+
+    <div class="memory-card">
+      <img src="images/founder.jpeg" alt="Founder">
+      <div class="memory-content">
+        <h4>Our Backbone</h4>
+        <p>The face behind five decades of sun-dried tradition – our beloved founder.</p>
+      </div>
+    </div>
+
+    <div class="memory-card">
+      <img src="images/gandhigram_visit.jpeg" alt="Gandhigram Visit">
+      <div class="memory-content">
+        <h4>Industrial Visit</h4>
+        <p>On 23rd January 2025, students from Gandhigram Rural Institute explored our vathal processing and home-scale dehydration units with hands-on experience.</p>
+      </div>
+    </div>
+
+    <div class="memory-card">
+      <img src="images/sakthi_college.jpeg" alt="Sakthi College Visit">
+      <div class="memory-content">
+        <h4>Industrial Visit</h4>
+        <p>Greetings! Students from Sakthi College, Dindigul explored our cold storage and organic food dehydration units as part of their academic learning.</p>
+      </div>
+    </div>
+
+    <div class="memory-card">
+      <img src="images/team_kanthalur.jpeg" alt="Team Kanthalur Trip">
+      <div class="memory-content">
+        <h4>Team Outing</h4>
+        <p>Our 2-day getaway to Kanthalur near Munnar was full of adventure — jeep rides, zip line, waterfalls, DJ campfire night. A trip to remember!</p>
+      </div>
+    </div>
+
+  </div>
+
+  <a class="back-btn" href="index.html">⬅️ Back to Home</a>
+
+</body>
+</html>
